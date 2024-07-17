@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Acme", sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: dimgrey;
+}
+.logo{
+    width: 225px;
+    padding-left: 30px;
+    
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 30px;
+}
+.links{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+}
+.links:hover{
+    text-decoration: underline;
+    color: rgb(248, 3, 3);
+}
+#wall-img{
+    height: 100%;
+    width: 100%;
+}
+#coffee{
+    text-align: center;
+    color: white;
+    margin-top: -500px;
+    font-size: 80px;
+    font-family: "Playfair Display", serif;
+}
+#brew{
+    margin: 35% 8% 0px 8%;
+}
+.brew-body{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    align-items: center;
+}
+.brew-content{
+    font-size: 20px;
+    text-align: justify;
+}
+#brew-visit{
+    margin-top: -50px;
+    margin-bottom: 25px;
+}
+#show{
+    text-decoration: none;
+    border: solid;
+    padding: 10px;
+    color: black;
+}
+p{
+    margin-bottom: 30px;
+}
+#visit{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    align-items: center;
+}
+.visit-div{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+#bean{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.bean-img{
+    margin-left: 125px;
+}
+.bean-content{
+    font-size: 20px;
+    margin-right: 100px;
+}
+#footer{
+    text-align: center;
+    background-color:dimgrey;
+}
+#text{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: white;
+}
+.icons{
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+#footer-div{
+    margin-top: 100px;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border-color: aliceblue;
+}
+::-webkit-scrollbar-thumb{
+    background-color:darkgrey;
+    border-radius: 5px;
+}
